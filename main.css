@@ -1,0 +1,64 @@
+
+.pressed{
+    width: 295px;
+    height: 100px;
+    background-color: #0000F0;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    font-size:2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pressed:hover {
+    background-color: #0000FF
+}
+
+.pressed:active {
+    background-color: #0288D1;
+}
+
+.header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #0000F0;
+}
+
+.article {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.body {
+    background-color: #0288D1;
+}
+
+.links {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.related {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #0000F0;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.facebook {
+    width: 10px;
+    height: 10px;
+}
