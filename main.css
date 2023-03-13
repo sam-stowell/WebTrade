@@ -1,7 +1,11 @@
 nav {
-    background-color: #333;
+    background-color: #0000F0;
     display: flex;
     justify-content: center;
+    color: white;
+    font-size:2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
   }
   
   ul {
@@ -15,18 +19,23 @@ nav {
     margin: 0 10px;
   }
   
-  a {
+  button {
     display: block;
-    color: #fff;
+    color: #0000F0;
     text-decoration: none;
     padding: 10px;
     transition: all 0.3s ease;
+    width: 295px;
+    height: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
-  a:hover {
+  button:hover {
     background-color: #fff;
     color: #333;
   }
+  
 .pressed{
     width: 295px;
     height: 100px;
