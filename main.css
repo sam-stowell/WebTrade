@@ -21,7 +21,8 @@ nav {
   
   button {
     display: block;
-    color: #0000F0;
+    background-color: #0000F0;
+    color: white;
     text-decoration: none;
     padding: 10px;
     transition: all 0.3s ease;
@@ -32,8 +33,8 @@ nav {
   }
   
   button:hover {
-    background-color: #fff;
-    color: #333;
+    background-color: #0288D1;
+    color: white;
   }
   
 .pressed{
