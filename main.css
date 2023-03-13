@@ -37,7 +37,7 @@ nav {
   }
   
 .pressed{
-    width: 295px;
+    width: 200px;
     height: 100px;
     background-color: #0000F0;
     border-radius: 4px;
@@ -46,6 +46,14 @@ nav {
     font-size:2rem;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.center {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+  }
 
 .pressed:hover {
     background-color: #0000FF
