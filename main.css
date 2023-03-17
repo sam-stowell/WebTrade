@@ -1,66 +1,110 @@
-nav {
-    height: 100px;
-    background-color: #c4c4c4;
-    display: flex;
-    justify-content: center;
-    color: #000000;
-    font-size:2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    
-  }
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
 
-  .header-image {
-    background-image: url(webtrade-logo.png);
-    width: 250px;
-    height: 250px;
-    }
-  
-  ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-  }
-  
-  li {
-    margin: 0 10px;
-  }
-  
-  button {
-    display: table-cell;
-    border-color: #ffffff;
-    background-color: #ffffff;
-    color: #000000;
-    text-decoration: none;
-    padding: 10px;
-    transition: all 0.3s ease;
-    width: 295px;
-    height: 50px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  button:hover {
-    background-color: #c4c4c4;
-    color: #000000;
-  }
-  
-.center {
-    margin: 0;
-    position: absolute;
-    left: 50%;
-    -ms-transform: translate(-50%);
-    transform: translate(-50%);
-  }
-.container {
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-   }
-   
-.img{
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+.content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+nav {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  font-size:2rem;
+  font-family: Bahnschrift;
   
 }
+
+.header-image {
+  background-image: url(webtrade-logo.png);
+  width: 250px;
+  height: 250px;
+}
+  
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+  
+li {
+  margin: 0 10px;
+}
+  
+button {
+  display: table-cell;
+  border-color: transparent;
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: medium;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  width: 295px;
+  height: 50px;
+  text-align: center;
+  font-family: Bahnschrift;
+}
+  
+button:hover {
+  background-color: #02cfed;
+  color: #000000;
+}
+
+.colorBand{
+  background-color: #02cfed;
+  padding: 10px ;
+  border: 1px solid #02cfed;
+}
+  
+.center {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+}
+.container {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+  
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  gap: 75px;
+  flex-basis: 10px;
+}
+
+.productBlock{
+  border-radius: 15px;
+  border-color: #0462785a;
+  border-style:outset;
+  text-align: left;
+  box-shadow: 10px 10px #02cfed;
+  padding: 10px;
+}
+
+.productBlock img{
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+}
+   
+
 .image {
   flex-basis: 40%
 }
@@ -71,47 +115,63 @@ nav {
 }
 
 .header {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000000;
-    font-size: 50px;
-    background-color: #c4c4c4;
+  text-align: left;
+  font-family: Bahnschrift;
+  color: #02cfed;
+  font-size: 32px;
+  background-color: #ffffff;
 }
 
+.header img{
+  width: 100px;height:100px;transform: translateY(25px);
+}
+
+
 .article {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000000;
+  text-align: center;
+  font-family: Bahnschrift;
+  color: #000000;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .body {
-    background-color: #ffffff;
+  background-color: #ffffff;
+  padding:0;
+  height:100%;
 }
 
 .links {
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-family: Bahnschrift;
 }
 
 .related {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000000;
+  text-align: center;
+  font-family: Bahnschrift;
+  color: #000000;
 }
 
 .footer {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000000;
-    background-color: #c4c4c4;
+  bottom:0;
+  width: 100%;
+  text-align: center;
+  font-family: Bahnschrift;
+  color: #ffffff;
+  background-color: #02cfed;
 }
 
 .container {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000000;
+  font-family: Bahnschrift;
+  color: #000000;
 }
 
 .facebook {
-    width: 10px;
-    height: 10px;
+  width: 10px;
+  height: 10px;
+}
+
+::marker {
+  color: #ffffff;
+  background-color: #ffffff;
 }
