@@ -1,4 +1,5 @@
 nav {
+    height: 100px;
     background-color: #c4c4c4;
     display: flex;
     justify-content: center;
@@ -20,9 +21,8 @@ nav {
   }
   
   button {
-
+    display: table-cell;
     border-color: #ffffff;
-    display: block;
     background-color: #ffffff;
     color: #000000;
     text-decoration: none;
@@ -39,16 +39,6 @@ nav {
     color: #000000;
   }
   
-.pressed{
-    width: 200px;
-    height: 100px;
-    background-color: #ffffff;
-    text-decoration: none;
-    color: #000000;
-    font-size:2rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .center {
     margin: 0;
     position: absolute;
@@ -57,18 +47,11 @@ nav {
     transform: translate(-50%);
   }
 
-.pressed:hover {
-    background-color: #ffffff
-}
-
-.pressed:active {
-    background-color: #c4c4c4;
-}
-
 .header {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #000000;
+    font-size: 50px;
     background-color: #c4c4c4;
 }
 
