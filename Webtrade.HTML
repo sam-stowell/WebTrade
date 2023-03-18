@@ -9,15 +9,16 @@
   <body class="body">
     <header class="header">
       <h1><img src = webtrade-logo.png>  WebTrade</h1><br>
+      <h5 style="text-align: right; font-size: 12px; color: black;opacity:50% ;">Email: marksuckerberg@metamorphosis.com<br>Telephone: +66 666 666</h5>
         <script src="app.js"></script>
         <div class = "colorBand">
           <ul>
-            <button onclick="window.location.href=''">Home</button>
-            <button onclick="window.location.href='about.html'">About</button>
-            <button href="#">Services</button>
-            <button href="#">Contact</button>
-            <button href="#">Post an ad</button>
-            <button href="#">Sign In</button>
+            <button class="nav" onclick="window.location.href='#'">Home</button>
+            <button class="nav" onclick="window.location.href='about.html'">About</button>
+            <button class="nav"  href="#">Browse</button>
+            <button class="nav"  href="#">Contact</button>
+            <button class="nav"  href="#">Post an ad</button>
+            <button class="nav"  href="#">Sign In</button>
           </ul>
         </div>
       </h1>
@@ -28,9 +29,13 @@
     
 
     <main>
-
-      <article class="article">
-        <br><h2>Featured Products</h2><br>
+      <div class="hero-banner"><div class="bgblur"></div>
+      <div class="hero-text"><h2 style="font-family: Bahnschrift;font-size: 54px; margin-bottom: 150px;">Featured Products<br></h2>
+      <button class="hero-button">Browse All</button><br></div></div>
+      <div class="page-description">
+      <h2>Page 1</h2>
+      </div>
+      <article class="article" style="margin-bottom: 150px;">
         <div class = "flex-container"><li><div class = "productBlock" onclick="window.location.href='iphone13.html'"><img src = iphone13.jpeg><br><br><h3>Apple IPhone 13 Pro</h3><h4 style="font-weight: normal;">£560</h4><h5 style="font-weight: lighter;">Grade A (Verified by WebTrade Leeds Lab)<br>Seller Identity Verified</h5></div></li>
         <li><div class = "productBlock"><img src = boar.jpeg><br><br><h3>Boar Vessel, 600-500 BC</h3><h4 style="font-weight: normal;">1 million dahllas</h4><h5 style="font-weight: lighter;">Grade D (Verified by WebTrade Etruria Lab)<br>Seller Identity Verified</h5></div></li></div>
         
