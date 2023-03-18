@@ -76,6 +76,8 @@ button:hover {
   background-color: #02cfed;
   padding: 10px ;
   border: 1px solid #02cfed;
+  color: white;
+  text-align: center;
 }
   
 .center {
@@ -101,6 +103,8 @@ button:hover {
 }
 
 .flex-containerProd{
+  margin-left: 50px;
+  margin-right: 50px;
   display: flex;
   flex-direction: row;
   gap: 400px;
@@ -140,7 +144,6 @@ button:hover {
   border-style: solid;
   border-color: #0462785a;
   box-shadow: 10px 10px #0462785a;
-  overflow: hidden;
   color: #ffffff;
 }
 
@@ -156,7 +159,6 @@ button:hover {
   padding-top: 0px;
   box-shadow: 10px 10px #0462785a;
   text-align: left;
-  margin-right: 100px;
   flex-basis: 500px;
 }
 
@@ -173,6 +175,7 @@ button:hover {
 
 .hero-banner:hover .bgblur{
   filter: blur(15px);
+  transform: scale(1.2);
 }
 
 
@@ -192,17 +195,14 @@ button:hover {
 }
 
 .bgblur{
+  transition: all 200ms ease-out;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("featured.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  height: 500px;
-  width: 110%;
-  top:50%;
-  left:50%;
-  transform: translate(-50%, -50%);
-  transition: all 200ms ease-out;
+  height: 100%;
+  width: 100%;
   backface-visibility: hidden;
 }
 
