@@ -18,14 +18,16 @@ html{
   padding-bottom: 2.5rem;    /* Footer height */
 }
 
+
+
 nav {
+  position: relative;
   height: 100px;
   display: flex;
   justify-content: center;
   color: #000000;
   font-size:2rem;
   font-family: Bahnschrift;
-  
 }
 
 .header-image {
@@ -60,8 +62,12 @@ button {
   font-family: Bahnschrift;
 }
 
+.nav button{
+  margin: 0px;
+}
+
 .nav:hover{
-  background-color: #62eaff;
+  background-color: #42dcf4;
   color:white;
   transform: translate(-5px,-5px);
   box-shadow: 10px 10px #0462785a;
@@ -79,7 +85,56 @@ button:hover {
   color: white;
   text-align: center;
 }
-  
+
+.multi-text{
+  overflow: hidden;
+}
+
+#aboutbtns{
+  margin-top: 20px;
+  margin-bottom: 20px; 
+  display: flex; 
+  justify-content: space-around;
+  box-shadow: 10px 10px #0462785a;
+  overflow: hidden;
+}
+
+#aboutbtns button{
+  width: 100%;
+}
+
+#textbox{
+  position: relative;
+  margin-bottom: 50px;
+  transition: all 250ms;
+  z-index: 0;
+}
+
+#textbox h4{
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#textbox .hero-banner{
+  margin-top: 0px;
+  margin-bottom: 25px;
+  border-bottom: 25px solid #02cfed;
+  box-shadow: 10px 10px #0462785a;
+}
+
+
+
+.multi-text .colorBand{
+  position: relative;
+  z-index: 1;
+}
+
+
+.multi-text #textbox{
+  z-index: 0;
+}
+
 .center {
   margin: 0;
   position: absolute;
@@ -204,6 +259,7 @@ button:hover {
   height: 100%;
   width: 100%;
   backface-visibility: hidden;
+  z-index: -1;
 }
 
 
@@ -240,7 +296,7 @@ button:hover {
   font-family: Bahnschrift;
   color: #02cfed;
   font-size: 32px;
-  background-color: #ffffff;
+  text-shadow: 5px 5px #0462785a;;
 }
 
 .header img{
