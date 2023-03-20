@@ -1,7 +1,7 @@
 async function toggletext(i) {
     var x = document.getElementById("textbox");
     const a = (`<div class="hero-banner">
-    <div class="bgblur" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(2, 206, 237,0.2), rgba(2, 206, 237,0.5),rgba(2, 206, 237,1)), url(different.jpg); height:800px;"></div></div><h4>At WebTrade, we pride ourselves on being different from other online marketplaces. We have set ourselves apart by creating a platform that focuses on the needs of our users, providing them with a secure and user-friendly platform for buying and selling goods and services.
+    <div class="bgblur" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(2, 206, 237,0.2)), url(different.jpg); height:800px;"></div></div><h4>At WebTrade, we pride ourselves on being different from other online marketplaces. We have set ourselves apart by creating a platform that focuses on the needs of our users, providing them with a secure and user-friendly platform for buying and selling goods and services.
 
     <br><br>One of the things that sets us apart is our commitment to transparency. We believe that transparency is essential to building trust between buyers and sellers, and that's why we have implemented various measures to ensure that all transactions on our platform are safe and secure. We verify all users and their listings to ensure that buyers and sellers can trust the information provided.
     
@@ -15,7 +15,7 @@ async function toggletext(i) {
 
 
     const b = `<div class="hero-banner">
-    <div class="bgblur" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(2, 206, 237,0.2), rgba(2, 206, 237,0.5),rgba(2, 206, 237,1)), url(experts.jpeg);"></div></div><h4>At WebTrade, we take great pride in ensuring that our users have access to the highest quality products and services. To achieve this, we have a team of trained experts who analyze and grade all products listed on our platform. 
+    <div class="bgblur" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(2, 206, 237,0.2)), url(experts.jpeg);"></div></div><h4>At WebTrade, we take great pride in ensuring that our users have access to the highest quality products and services. To achieve this, we have a team of trained experts who analyze and grade all products listed on our platform. 
 
     When a seller lists a product on our platform, our team of experts carefully examines the product to ensure that it meets our quality standards.<br><br> We analyze everything from the product's design, functionality, and durability to its price point and overall value. We use a comprehensive grading system to determine the quality of the product and assign it a rating that appears on the product page.
     
@@ -27,7 +27,7 @@ async function toggletext(i) {
     
     
     const c = `<div class="hero-banner">
-    <div class="bgblur" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(2, 206, 237,0.2), rgba(2, 206, 237,0.5),rgba(2, 206, 237,1)), url(hamsta.jpeg); background-position:0px 0px;"></div></div><h4>At WebTrade, we are always looking for talented and driven individuals to join our team. If you are passionate about e-commerce and enjoy working in a fast-paced, dynamic environment, we would love to hear from you.
+    <div class="bgblur" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(2, 206, 237,0.2)), url(hamsta.jpeg); background-position:0px 0px;"></div></div><h4>At WebTrade, we are always looking for talented and driven individuals to join our team. If you are passionate about e-commerce and enjoy working in a fast-paced, dynamic environment, we would love to hear from you.
 
     We offer a range of career opportunities across various departments, including marketing, customer service, product development, and more.<br><br> We are committed to providing a supportive and inclusive workplace where all employees can thrive and grow.
     

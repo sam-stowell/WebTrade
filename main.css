@@ -86,8 +86,13 @@ button:hover {
   text-align: center;
 }
 
+.colorBand .nav{
+  cursor: pointer;
+}
+
 .multi-text{
   overflow: hidden;
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0),#02ceed00,#02ceed00,#02cfed); */
 }
 
 #aboutbtns{
@@ -105,21 +110,20 @@ button:hover {
 
 #textbox{
   position: relative;
-  margin-bottom: 50px;
   transition: all 250ms;
   z-index: 0;
 }
 
 #textbox h4{
-  margin-top: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
+  box-sizing: border-box;
+  padding: 90px;
+  font-size: 18px;
 }
 
 #textbox .hero-banner{
   margin-top: 0px;
   margin-bottom: 25px;
-  border-bottom: 25px solid #02cfed;
+  border-bottom: 25px solid rgb(2, 207, 237);
   box-shadow: 10px 10px #0462785a;
 }
 
@@ -217,6 +221,10 @@ button:hover {
   flex-basis: 500px;
 }
 
+.productDescription button{
+  cursor: pointer;
+}
+
 .hero-banner{
   height: 400px;
   background-position: center;
@@ -229,8 +237,12 @@ button:hover {
 }
 
 .hero-banner:hover .bgblur{
-  filter: blur(15px);
-  transform: scale(1.2);
+  filter: blur(8px);
+  transform: scale(1.1);
+}
+
+.hero-banner button{
+  cursor: pointer;
 }
 
 
