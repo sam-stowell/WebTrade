@@ -1,0 +1,14 @@
+function defaulttext() {
+    var x = document.getElementById("textbox");
+    x.innerHTML=`At WebTrade, we pride ourselves on being different from other online marketplaces. We have set ourselves apart by creating a platform that focuses on the needs of our users, providing them with a secure and user-friendly platform for buying and selling goods and services.
+
+    <br><br>One of the things that sets us apart is our commitment to transparency. We believe that transparency is essential to building trust between buyers and sellers, and that's why we have implemented various measures to ensure that all transactions on our platform are safe and secure. We verify all users and their listings to ensure that buyers and sellers can trust the information provided.
+    
+    We also prioritize customer service at WebTrade. Our team is always available to assist our users with any questions or concerns they may have. <br><br>Whether it's through email, phone, or live chat, our customer support team is ready to help.
+    
+    Another thing that makes us different is our focus on community. We believe that building a strong community of buyers and sellers is essential to the success of our platform. That's why we have created various features, such as user reviews and ratings, to help build trust within our community.
+    
+    Lastly, we are constantly innovating and improving our platform to better serve our users.<br><br> We are always listening to feedback and suggestions from our users and using that information to make our platform better.
+    
+    In summary, at WebTrade, we are committed to providing a transparent, customer-focused, community-driven, and constantly improving platform for buying and selling goods and services online. We believe that these qualities set us apart and make us the premier online marketplace for all your shopping needs.`;
+}

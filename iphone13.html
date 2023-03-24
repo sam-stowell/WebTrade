@@ -8,16 +8,16 @@
 <!-- Write your commentstt here-->
   <body class="body">
     <header class="header">
-      <h1><img src = webtrade-logo.png>  WebTrade</h1><br>
+      <h1 onclick="window.location.href='WebTrade.html'" style="cursor: pointer;"><img src = webtrade-logo.png>  WebTrade</h1><br>
         <script src="app.js"></script>
-        <div class = "colorBand">
+        <div class = "colorBand" style="box-shadow: 10px 10px #0462785a;">
             <ul>
-              <button onclick="window.location.href='WebTrade.html'">Home</button>
-              <button onclick="window.location.href='about.html'">About</button>
-              <button href="#">Services</button>
-              <button href="#">Contact</button>
-              <button href="#">Post an ad</button>
-              <button href="#">Sign In</button>
+              <button class="nav" onclick="window.location.href='WebTrade.html'">Home</button>
+              <button class="nav" onclick="window.location.href='about.html'">About</button>
+              <button class="nav"  href="#">Browse</button>
+              <button class="nav"  href="#">Contact</button>
+              <button class="nav"  href="#">Post an ad</button>
+              <button class="nav"  href="#">Sign In</button>
             </ul>
           </div>
       </h1>
@@ -33,12 +33,15 @@
 
         <div class="flex-containerProd">
                 <div class="productImage">
-                    <img src="iphone13.jpeg">
+                  <div class="colorBand"><h3>Images</h3></div>
+                    <img src="iphone13.jpeg"><br>
+                    <div class="colorBand"><button class="nav"><h3>View Original in 3D</h3></button></div>
                 </div>
                 <div class = "productDescription">
                     <h2 style="text-align: center;"><br><br>Apple IPhone 13 Pro</h2>
                     <h3><br>£560</h3>
-                    <h4 style="text-align: right; opacity: 50%;"><br><br>Seller Name<br>Last Online 4m ago</h4>
+                    <h4 style="text-align: right; opacity: 50%;"><br><br>Seller Name<br>Last Online 4m ago<br><br></h4>
+                    <h4 style="text-align: right; color: #046378bf;cursor: pointer; font-weight: bold;">View Seller Verification</h4>
                     <h3><br><br>Product Description:<br></h3>
                     <h4>Description here</h4>
                     <h3 style="color:#218ca4;"><br><br><br>Grade A</h3>
