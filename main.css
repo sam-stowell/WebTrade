@@ -191,6 +191,7 @@ button:hover {
 
 .productBlock:hover{
   transform: scale(1.1);
+  box-shadow: 22px 22px #0462785a;
 }
 
 .productBlock img{
