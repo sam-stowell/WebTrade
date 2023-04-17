@@ -1,19 +1,19 @@
 function openPage(){
     var x = document.getElementById("search").value;
 
-    if (x === "gta"){
-        window.open("/gta.html");
+    if (x === "1"){
+        window.open("/1.html");
     }
 
-    if (x === "home"){
-        window.open("/index.html");
+    if (x === "2"){
+        window.open("/2.html");
     }
 
-    if (x === "rl"){
-        window.open("/rl.html");
+    if (x === "3"){
+        window.open("/3.html");
     }
 
-    if (x === "mc"){
-        window.open("/mc.html");
+    if (x === "4"){
+        window.open("/4.html");
     }
 }
