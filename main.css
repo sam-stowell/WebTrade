@@ -36,6 +36,7 @@ nav {
   height: 250px;
 }
   
+/* buttons bar */
 ul {
   list-style: none;
   display: flex;
@@ -46,7 +47,8 @@ ul {
 li {
   margin: 0 10px;
 }
-  
+
+/* button format */
 button {
   display: table-cell;
   border-color: transparent;
@@ -95,6 +97,7 @@ button:hover {
   /* background-image: linear-gradient(rgba(255, 255, 255, 0),#02ceed00,#02ceed00,#02cfed); */
 }
 
+/* individual button */
 #aboutbtns{
   margin-top: 20px;
   margin-bottom: 20px; 
